@@ -58,6 +58,6 @@ Fonctionnalités :
 
 1.Cloner ce dépôt git.
 
-2.Ouvrir le fichier index.html dans un navigateur web.
+2.Ouvrir le fichier 'index.html' dans un navigateur web.
 
 3.Explorez les différentes fonctionnalités de l'application web.
