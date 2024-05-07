@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Data Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Product Data Analysis</h1>
+        <input type="text" id="searchInput" placeholder="Search by name">
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Books">Books</option>
+        </select>
+        <button onclick="filterProducts()">Filter</button>
+        <button onclick="calculateTotalPrice()">Total Price</button>
+        <button onclick="findLowStockProducts()">Low Stock</button>
+        <button onclick="sortProducts()">Sort</button>
+        <div id="products"></div>
+        <div id="charts">
+            <canvas id="priceChart"></canvas>
+            <canvas id="stockChart"></canvas>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+
